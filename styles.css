@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.language {
+    position: absolute;
+    top: 10px;
+    /* تحريكها للأعلى */
+    right: 50%;
+    /* توسيطها أفقياً */
+    transform: translateX(50%);
+    /* تصحيح التوسيط */
+    font-size: 14px;
+    color: #8C7F7F;
+}
+
+.logo {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.facebook-btn {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 10px;
+    /* تقليل الطول */
+    width: 80%;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.facebook-btn img {
+    width: 22px;
+    height: 18;
+    position: relative;
+    top: 1px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* يضمن أن كل العناصر في المنتصف */
+    width: 80%;
+    margin: 10px auto;
+    /* يضيف تباعداً مناسباً */
+    position: relative;
+}
+
+.separator::before,
+.separator::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #332D2D;
+    margin: 0 10px;
+}
+
+.separator span {
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    /* لون الخلفية يطابق لون الموقع */
+    padding: 0 10px;
+    /* يعطي مسافة حول "أو" لتجنب التصاقها بالخطوط */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    align-items: center;
+}
+
+input {
+    background-color: #222;
+    border: none;
+    padding: 10px;
+    /* تقليل الطول */
+    width: 80%;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    text-align: right;
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: #0095f6;
+    text-decoration: none;
+    align-self: flex-start;
+    margin-left: 12%;
+    /* تحريكها إلى اليسار */
+    margin-bottom: 10px;
+}
+
+.login-btn {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 10px;
+    /* تقليل الطول */
+    width: 80%;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.signup-text {
+    font-size: 14px;
+}
+
+.signup-text a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.meta-logo {
+    position: absolute;
+    bottom: 10px;
+    /* تحريكه لأسفل */
+    left: 50%;
+    /* توسيطه أفقياً */
+    transform: translateX(-50%);
+    /* تصحيح التوسيط */
+    width: 100px;
+}
