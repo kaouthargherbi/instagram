@@ -40,20 +40,23 @@ body {
 
 .logo {
     width: 180px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    position: relative;
+    top: 10px;
 }
 
 .facebook-btn {
     background-color: #1877f2;
     color: white;
     border: none;
-    padding: 6px;
+    padding: 8px 10px;
     /* تقليل الطول */
     width: 80%;
     border-radius: 5px;
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 20px;
+    line-height: 1.2;
 }
 
 .facebook-btn img {
@@ -84,8 +87,8 @@ body {
 }
 
 .separator span {
-    font-size: 14px;
-    color: white;
+    font-size: 12px;
+    color: #8C7F7F;
     background-color: black;
     padding: 0 10px;
     position: relative;
@@ -110,7 +113,7 @@ input {
     width: 80%;
     border-radius: 5px;
     color: white;
-    font-size: 10px;
+    font-size: 12px;
     text-align: right;
 }
 
@@ -138,7 +141,8 @@ input {
 }
 
 .signup-text {
-    font-size: 14px;
+    font-size: 12px;
+    color: #8C7F7F;
 }
 
 .signup-text a {
@@ -157,4 +161,3 @@ input {
     /* تصحيح التوسيط */
     width: 100px;
 }
-  
