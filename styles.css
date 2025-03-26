@@ -51,7 +51,7 @@ body {
     border: none;
     padding: 8px 10px;
     /* تقليل الطول */
-    width: 80%;
+    width: 85%;
     border-radius: 5px;
     font-size: 14px;
     font-weight: bold;
@@ -110,7 +110,7 @@ input {
     padding: 10px;
     border: 1px solid grey;
     /* تقليل الطول */
-    width: 80%;
+    width: 85%;
     border-radius: 5px;
     color: white;
     font-size: 12px;
@@ -133,7 +133,7 @@ input {
     border: none;
     padding: 10px;
     /* تقليل الطول */
-    width: 80%;
+    width: 85%;
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
