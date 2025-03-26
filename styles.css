@@ -47,11 +47,11 @@ body {
     background-color: #1877f2;
     color: white;
     border: none;
-    padding: 10px;
+    padding: 6px;
     /* تقليل الطول */
     width: 80%;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -67,10 +67,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* يضمن أن كل العناصر في المنتصف */
     width: 80%;
-    margin: 10px auto;
-    /* يضيف تباعداً مناسباً */
+    margin: 5px auto 15px;
+    /* رفع العنصر قليلاً */
     position: relative;
 }
 
@@ -80,16 +79,18 @@ body {
     flex: 1;
     height: 1px;
     background-color: #332D2D;
-    margin: 0 10px;
+    margin: -3px 10px 0;
+    /* رفع الخطوط للأعلى */
 }
 
 .separator span {
     font-size: 14px;
     color: white;
     background-color: black;
-    /* لون الخلفية يطابق لون الموقع */
     padding: 0 10px;
-    /* يعطي مسافة حول "أو" لتجنب التصاقها بالخطوط */
+    position: relative;
+    top: -3px;
+    /* رفع كلمة "أو" للأعلى */
 }
 
 form {
@@ -104,11 +105,12 @@ input {
     background-color: #222;
     border: none;
     padding: 10px;
+    border: 1px solid grey;
     /* تقليل الطول */
     width: 80%;
     border-radius: 5px;
     color: white;
-    font-size: 14px;
+    font-size: 10px;
     text-align: right;
 }
 
@@ -155,3 +157,4 @@ input {
     /* تصحيح التوسيط */
     width: 100px;
 }
+  
