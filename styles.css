@@ -154,6 +154,8 @@ input {
 .meta-logo {
     position: absolute;
     bottom: 10px;
+        position: fixed;
+
     /* تحريكه لأسفل */
     left: 50%;
     /* توسيطه أفقياً */
